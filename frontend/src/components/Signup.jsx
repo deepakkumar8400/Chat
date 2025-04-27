@@ -20,7 +20,7 @@ const Signup = () => {
   const onSubmitHandler = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(`${BASE_URL}/api/v1/user/register`, user, {
+      const res = await axios.post(`https://backendchat-s5je.onrender.com/api/v1/user/register`, user, {
         headers: {
           'Content-Type': 'application/json'
         },
