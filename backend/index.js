@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'https://frontendchat-q13n.onrender.com/login',
+    origin:'https://frontendchat-q13n.onrender.com',
     credentials:true
 };
 app.use(cors(corsOption)); 
